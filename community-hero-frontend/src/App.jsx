@@ -5,7 +5,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
-const BASE_URL = 'http://127.0.0.1:5000'; 
+const BASE_URL = 'https://backend-825908209535.us-central1.run.app'; 
 const API_BASE = `${BASE_URL}/api`;
 const socket = io(BASE_URL);
 
